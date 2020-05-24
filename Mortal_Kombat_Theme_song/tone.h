@@ -90,6 +90,11 @@
 int Speed = 250;
 const int s = 10;
 
+void Blinky() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(10);
+  digitalWrite(LED_BUILTIN, LOW);
+}
 void Short() {
   delay(Speed/2.5);
 }
